@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trying.developing.maps.MainActivity">
+
+
+ <com.google.android.gms.common.SignInButton
+     android:layout_centerVertical="true"
+     android:layout_centerHorizontal="true"
+     android:id="@+id/sign_in_button"
+     android:layout_width="321dp"
+     android:layout_height="37dp"
+     tools:layout_editor_absoluteX="30dp"
+     tools:layout_editor_absoluteY="324dp" />
+
+ <Button
+     android:layout_centerHorizontal="true"
+     android:layout_below="@+id/sign_in_button"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Just Show"
+     android:id="@+id/btnMap"/>
+</RelativeLayout>

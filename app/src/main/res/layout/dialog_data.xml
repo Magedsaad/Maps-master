@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:orientation="vertical" android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:id="@+id/sizeEditText"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:hint="size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:hint="Description"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/sizeEditText"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:hint="price"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/desc"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:hint="Phone Number"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/price"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:text="Submit"
+        android:layout_below="@id/number"
+        />
+
+
+
+</RelativeLayout>
